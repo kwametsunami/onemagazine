@@ -72,6 +72,7 @@ fieldset {
     margin: 15px;
 }
 
+/* hidden dropdown */
 .hamburgerMenu {
     display: none;
 }
@@ -136,7 +137,6 @@ h1 {
     text-align: center;
     margin: 5px 0;
 }
-
 
 .wrapper:not(.fullWidth) {
     width: 85%;
@@ -561,8 +561,8 @@ h5 {
 
     }
 }
-/* mobile */
 
+/* mobile */
 @media (max-width: 580px){
     header {
         height: 750px;
