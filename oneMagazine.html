@@ -12,15 +12,25 @@
     <script src="https://kit.fontawesome.com/3ac14fc81f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <h2>one</h2>
+    <header id="home">
+        <nav class="bar">
+            <h2 id="logo">one</h2>
             <ul class="navBar">
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
                 <li><a href="#blog">blog</a></li>
                 <li><a href="#contact">contact</a></li>
-            </ul>
+        </nav>
+        <nav class="hidden">
+            <div class="hamburgerMenu">
+                <button class="dropdown" id="hammy"><i class="fa-solid fa-bars"></i></button>
+                    <ul class="dropdownList">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+            </div>
         </nav>
         <div class="title">
             <h1><span class="titleEm">one<br></span> magazine</h1>
@@ -37,9 +47,9 @@
             <article class="newsArticles">
                 <h3>news articles</h3>
                     <div class="imageContainer">
-                        <img src="./one-magazine-assets/image-8.jpg" alt="Low angle of two bright outfits walking away">
-                        <img src="./one-magazine-assets/image-3.jpg" alt="A model staring sternly at the camera">
-                        <img src="./one-magazine-assets/image-7.jpg" alt="Behind the scenes shoot with a camera in frame and two fashionable people working">
+                        <img id="image1" src="./one-magazine-assets/image-8.jpg" alt="Low angle of two bright outfits walking away">
+                        <img id="image2" src="./one-magazine-assets/image-3.jpg" alt="A model staring sternly at the camera">
+                        <img id="image3" src="./one-magazine-assets/image-7.jpg" alt="Behind the scenes shoot with a camera in frame and two fashionable people working">
                     </div>
                 </article>
             <article class="weekHighlight">
@@ -98,7 +108,7 @@
             </div>
             </div>
         </section>
-        <section class="info">
+        <section class="info" id="contact">
             <div class="newsletter">
                 <h5>stay updated</h5>
                 <p>Subscribe to our newsletter to stay updated.</p>
@@ -107,7 +117,7 @@
                         <legend>enter your email address</legend>
                             <label for="email"></label>
                             <input type="email" placeholder="email address">
-                            <button type="submit">subscribe</button> 
+                            <button id="newsButton" type="submit">subscribe</button> 
                     </fieldset>
                 </form>
             </div>
