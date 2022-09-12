@@ -90,7 +90,7 @@ fieldset {
     padding: 2px 0;
 }
 
-header {
+/* header {
     background-image: url(../one-magazine-assets/image-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ header {
     position: relative;
     max-width: 100%;
     margin: 0 auto;
-}
+} */
 
 h1 {
     font-size: 15rem;
